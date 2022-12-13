@@ -1,5 +1,6 @@
 ﻿// 1. Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом.
 
+
 bool Palindrom (int N)
 {
 
@@ -20,6 +21,7 @@ Palindrom (N);
 double DistanceAB (double xA, double yA, double zA, double xB, double yB, double zB)
 {
     double dist = Math.Sqrt(Math.Pow(xA-xB, 2) + Math.Pow(yA - yB, 2) + Math.Pow(zA-zB, 2));
+    return dist;
 }
 
 Console.WriteLine("Input xA: ");
@@ -36,7 +38,7 @@ Console.WriteLine("Input zB: ");
 double zB = Convert.ToDouble(Console.ReadLine());
 
 double dist = Math.Round(DistanceAB(xA, yA, zA, xB, yB, zB), 3);
-Console.WriteLine("A distance is: {dist}");
+Console.WriteLine($"A distance is: {dist}");
 */
 
 
