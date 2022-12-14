@@ -3,9 +3,18 @@
 
 bool Palindrom (int N)
 {
+    // Для решения можно взять число N как масссив, перевернуть и вернуть массив в новое число NRev, затем сравнить N и NRev.
+    // При равенстве это палиндром. А вот как это корректно записать - воспроооос... Но суть написания и вызова метода bool я уловила
+    // Если это рабочий вариант, подскажите, пожалуйста, как записать?
 
-
-
+    int N = Convert.ToBase64CharArray(NA);
+    char NR = Array.Reverse(NA);
+    int NRev = Convert.ToInt3(char NR);
+    
+    if (N == NRev)
+        Console.Write("Yes!");
+    else 
+        Console.Write("No!");
 }
 
 Console.WriteLine("Input a number: ");
